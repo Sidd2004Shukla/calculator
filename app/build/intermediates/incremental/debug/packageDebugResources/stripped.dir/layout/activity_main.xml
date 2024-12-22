@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="60dp"
+        android:gravity="end"
+        android:text="formula"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="end"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv1" />
+
+    <GridLayout
+        android:id="@+id/gv1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="40dp"
+        android:columnCount="4"
+        android:rowCount="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv2">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/emoji"
+            android:layout_width="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="10dp"
+            android:width="0dp"
+            android:backgroundTint="@color/softpurple"
+            android:text="🫠"
+            android:textSize="30sp"
+            app:cornerRadius="15dp"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/clear"
+            android:layout_width="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="10dp"
+            android:width="0dp"
+            android:backgroundTint="@color/softpurple"
+            android:text="C"
+            android:textSize="30sp"
+            app:cornerRadius="15dp"
+
+            />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/plus"
+            android:layout_width="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="10dp"
+            android:width="0dp"
+            android:backgroundTint="@color/softpurple"
+            android:text="+"
+            android:textSize="30sp"
+            app:cornerRadius="15dp"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/divide"
+            android:layout_width="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="10dp"
+            android:width="0dp"
+            android:backgroundTint="@color/softpurple"
+            android:text="/"
+            android:textSize="30sp"
+            app:cornerRadius="15dp"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/seven"
+            android:layout_width="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="10dp"
+            android:width="0dp"
+            android:background="@android:color/transparent"
+            android:text="7"
+            android:textSize="30sp"
+            app:cornerRadius="15dp"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/eight"
+            android:layout_width="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="10dp"
+            android:width="0dp"
+            android:background="@android:color/transparent"
+            android:text="8"
+            android:textSize="30sp"
+            app:cornerRadius="15dp"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/nine"
+            android:layout_width="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="10dp"
+            android:width="0dp"
+            android:background="@android:color/transparent"
+            android:text="9"
+            android:textSize="30sp"
+            app:cornerRadius="15dp"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/multiply"
+            android:layout_width="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="10dp"
+            android:width="0dp"
+            android:backgroundTint="@color/softpurple"
+            android:text="*"
+            android:textSize="30sp"
+            app:cornerRadius="15dp"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/four"
+            android:layout_width="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="10dp"
+            android:width="0dp"
+            android:background="@android:color/transparent"
+            android:text="4"
+            android:textSize="30sp"
+            app:cornerRadius="15dp"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/five"
+            android:layout_width="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="10dp"
+            android:width="0dp"
+            android:background="@android:color/transparent"
+            android:text="5"
+            android:textSize="30sp"
+            app:cornerRadius="15dp"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/six"
+            android:layout_width="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="10dp"
+            android:width="0dp"
+            android:background="@android:color/transparent"
+            android:text="6"
+            android:textSize="30sp"
+            app:cornerRadius="15dp"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/minus"
+            android:layout_width="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="10dp"
+            android:width="0dp"
+            android:backgroundTint="@color/softpurple"
+            android:text="-"
+            android:textSize="30sp"
+            app:cornerRadius="15dp"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/one"
+            android:layout_width="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="10dp"
+            android:width="0dp"
+            android:background="@android:color/transparent"
+            android:text="1"
+            android:textSize="30sp"
+            app:cornerRadius="15dp"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/two"
+            android:layout_width="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="10dp"
+            android:width="0dp"
+            android:background="@android:color/transparent"
+            android:text="2"
+            android:textSize="30sp"
+            app:cornerRadius="15dp"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/three"
+            android:layout_width="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="10dp"
+            android:width="0dp"
+            android:background="@android:color/transparent"
+            android:text="3"
+            android:textSize="30sp"
+            app:cornerRadius="15dp"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/equal"
+            android:layout_width="0dp"
+            android:layout_rowSpan="2"
+            android:layout_rowWeight="2"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="10dp"
+            android:width="0dp"
+            android:backgroundTint="@color/softpurple"
+            android:text="="
+            android:textSize="30sp"
+            app:cornerRadius="15dp"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/zeo"
+            android:layout_width="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="2"
+            android:layout_columnWeight="2"
+            android:layout_marginEnd="10dp"
+            android:width="0dp"
+            android:background="@android:color/transparent"
+            android:text="0"
+            android:textSize="30sp"
+            app:cornerRadius="15dp"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dot"
+            android:layout_width="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:layout_marginEnd="10dp"
+            android:width="0dp"
+            android:background="@android:color/transparent"
+            android:text="."
+            android:textSize="30sp"
+            app:cornerRadius="15dp"
+
+            />
+
+
+    </GridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

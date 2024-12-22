@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="softpurple">#E4A0F7</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Calculator</string>
+    <string name="emoji">🫠</string>
+    <style name="Base.Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Calculator" parent="Base.Theme.Calculator"/>
+</resources>

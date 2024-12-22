@@ -1,0 +1,6 @@
+com.example.calculator.test.app-core-1.6.1-0 C:\Users\siddharth shukla\.gradle\caches\8.9\transforms\0eb794ac42dcde4844217e71784fdf7f\transformed\core-1.6.1\res
+com.example.calculator.test.app-tracing-1.2.0-1 C:\Users\siddharth shukla\.gradle\caches\8.9\transforms\45cd4fda65cafefb2ef1fc11e21c0f99\transformed\tracing-1.2.0\res
+com.example.calculator.test.app-androidTest-2 C:\Users\siddharth shukla\AndroidStudioProjects\Calculator\app\build\generated\res\resValues\androidTest\debug
+com.example.calculator.test.app-mergeDebugAndroidTestResources-3 C:\Users\siddharth shukla\AndroidStudioProjects\Calculator\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.calculator.test.app-mergeDebugAndroidTestResources-4 C:\Users\siddharth shukla\AndroidStudioProjects\Calculator\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.calculator.test.app-debugAndroidTest-5 C:\Users\siddharth shukla\AndroidStudioProjects\Calculator\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
